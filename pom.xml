@@ -8,22 +8,7 @@
     <packaging>war</packaging>
 
     <name>java-jsp-diary</name>
-<distributionManagement>
-	 
-  <repository>
-    <name>central</name>
-    <id>JavaJspDiary-generic-local/</id>
-    <url>http://13.250.13.8:8082/artifactory/JavaJspDiary-generic-local/</url>
-  </repository>
-  
-  
-  <snapshotRepository>
-    <id>central</id>
-    <name>JavaJspDiary-generic-local/</name>
-    <url>http://13.250.13.8:8082/artifactory/JavaJspDiary-generic-local/</url>
-  </snapshotRepository>
 
-</distributionManagement>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
